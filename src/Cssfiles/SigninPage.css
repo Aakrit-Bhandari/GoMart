@@ -1,0 +1,10 @@
+.Signin_box{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+    font-size:30px;
+}.Signin_box input {
+    font-size:25px;
+
+}

@@ -1,0 +1,84 @@
+.Homing 
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    font-size:30px;
+}
+.HomePage_main_div
+{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+justify-content: center;
+
+
+}
+.HomePage_scroller_1
+{
+    width:80%;
+    height:400px;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.HomePage_scroller_1 img{
+    border-radius:20px 20px 0 0 ;
+    width:400px;
+}
+.HomePage_items_list_top
+{
+    width:80%;
+    border:1px solid green;
+}
+.collage
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.collage img{
+    width:200px;
+}
+.Items_Inc_Dec{
+    display:flex;
+    align-items: center;
+    padding:10px;
+    flex-direction: column;
+}
+.collage div button{
+    padding:10px;
+}
+.Items_Inc_Dec
+{
+    height:350px;
+    width:220px;
+    display:flex;
+    justify-content: space-between;
+}
+.Adding_to_cart
+{
+    border-radius:20px;
+    border:none;
+    width:200px;
+    background-color: rgb(218, 215, 215);
+}
+.Adding_after_clicking {
+    display: flex;
+    width:200px;
+
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.Adding_buttons_1,.Adding_buttons_2,.Adding_after_clicking span{
+    display:inline-block;
+    width:50px;
+}
+.Adding_after_clicking button {
+    width: 40px;
+    border-radius: 100px;
+    /* border: none; */
+}

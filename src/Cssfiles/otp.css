@@ -1,0 +1,21 @@
+.Otp_main_div
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:500px;
+}
+.xyz
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Opt_box input
+{   
+    text-align:center;
+    height:50px;
+    width:50px;
+}
